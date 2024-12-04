@@ -82,8 +82,7 @@ questionsArray[0] = new createQuestion("6) I was bothered by things that usually
 questionsArray[1] = new createQuestion("7) I did not feel like eating; my appetite was poor", 7);
 questionsArray[2] = new createQuestion("8) I felt that I could not shake off the blues even with help from my family or friends", 8);
 questionsArray[3] = new createQuestion("9) I felt I was just as good as other people", 9);
-
-
+questionsArray[4] = new createQuestion("10) I had trouble keeping my mind on what I was doing", 10);
 
 document.getElementById("submit-btn").addEventListener("click", getResult)
 
