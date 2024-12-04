@@ -1,144 +1,144 @@
 html {
-    background: rgb(70, 67, 70)
+  background: rgb(70, 67, 70)
+}
+
+#white-background {
+  margin: 30px auto auto  auto;
+  padding: 15px 30px; 
+  width: 750px;
+  /* border-radius: 30px; */
+  font-family: Arial, Helvetica, sans-serif;
+  background: white;
+}
+
+#bolded-paragraph {
+  font-weight: bold;
+}
+
+
+.gray-background-one {
+  margin: auto; 
+  padding: 15px 30px; 
+  width: 750px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: lightgray;
+  font-size: 15px;
+}
+
+.hrstyles {
+  margin: auto; 
+  padding: 1px 30px;   
+  width: 750px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: lightgray;
+  font-size: 15px;
+} 
+
+.gray-background-two {
+  margin: auto; 
+  padding: 0px 30px; 
+  width: 750px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: lightgray;
+  font-size: 15px;
+}
+
+.blue-background {
+  margin: auto; 
+  padding: 3px 30px; 
+  width: 750px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: lightblue;
+}
+
+.moving-part {
+  position: sticky;
+  top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: lightgray;
+  display: grid;  
+  grid-template-columns: 35% 16.25% 16.25% 16.25% 16.25%;
+  color: #f90b0b;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 30px 0px 30px;
+  margin: auto; 
+  width: 750px;
   }
-  
-  #white-background {
-    margin: 30px auto auto  auto;
-    padding: 15px 30px; 
-    width: 750px;
-    /* border-radius: 30px; */
-    font-family: Arial, Helvetica, sans-serif;
-    background: white;
-  }
-  
-  #bolded-paragraph {
-    font-weight: bold;
-  }
-  
-  
-  .gray-background-one {
-    margin: auto; 
-    padding: 15px 30px; 
-    width: 750px;
-    font-family: Arial, Helvetica, sans-serif;
-    background: lightgray;
-    font-size: 15px;
-  }
-  
-  .hrstyles {
-    margin: auto; 
-    padding: 1px 30px;   
-    width: 750px;
-    font-family: Arial, Helvetica, sans-serif;
-    background: lightgray;
-    font-size: 15px;
-  } 
-  
-  .gray-background-two {
-    margin: auto; 
-    padding: 0px 30px; 
-    width: 750px;
-    font-family: Arial, Helvetica, sans-serif;
-    background: lightgray;
-    font-size: 15px;
-  }
-  
-  .blue-background {
-    margin: auto; 
-    padding: 3px 30px; 
-    width: 750px;
-    font-family: Arial, Helvetica, sans-serif;
-    background: lightblue;
-  }
-  
-  .moving-part {
-    position: sticky;
-    top: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: lightgray;
-    display: grid;  
-    grid-template-columns: 35% 16.25% 16.25% 16.25% 16.25%;
-    color: red;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 15px 30px 0px 30px;
-    margin: auto; 
-    width: 750px;
-    }
-  
-  .moving-part > div {
-    padding: 0px 5px;
-  }
-  
-  .grid-container {
-    display: grid;
-    grid-template-columns: 35% 16.25% 16.25% 16.25% 16.25%; 
-  }
-  
-  .btn {
-    border-radius: 20px;
-    height: 15px;
-    width: 15px;
-    margin: 3px; 
-  }
-  
-  .btngrid {
-    border-radius: 20px;
-    width: 15px;
-    height: 15px;
-    margin: 25px 30px; 
-  } 
-  
-  .chosen-answer {
-    background-color: rgba(17, 17, 226, 0.712);
-  }
-  
-  /* drpdown menu styles */
-  #dropbtn:hover {
-    background-color: #2980B9;
-  }
-  
-  #dropbtn {
-    width: 125px;
-    height: 20px;
-    margin: 10px 0px 0px 0px;
-    text-align: right;
-  }
-  
-  .dropdown-content {
-   display: none;
-  }
-  
-  .dropdown-content button{
-    padding: 5px 7px;
-    display: block;
-    width: 125px;
-  }
-  
-  .dropdown button:hover {background-color: gray;}
-  
-  .show {
-    display: block;
-  }
-  
-  body {
-    border: 5px black;
-  }
-  
-  .submit-btn-styles {
-    text-align: center;
-  }
-  
-  #submit-btn {
-    height: 50px;
-    width: 100px;
-    font-size: 20px;
-  }
-  
-  .grading-system {
-    font-weight: bold;
-  }
-  
-  .grading-system > p {
-    margin: 5px;
-  }
+
+.moving-part > div {
+  padding: 0px 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 35% 16.25% 16.25% 16.25% 16.25%; 
+}
+
+.btn {
+  border-radius: 20px;
+  height: 15px;
+  width: 15px;
+  margin: 3px; 
+}
+
+.btngrid {
+  border-radius: 20px;
+  width: 15px;
+  height: 15px;
+  margin: 25px 30px; 
+} 
+
+.chosen-answer {
+  background-color: rgba(17, 17, 226, 0.712);
+}
+
+/* drpdown menu styles */
+#dropbtn:hover {
+  background-color: #2980B9;
+}
+
+#dropbtn {
+  width: 125px;
+  height: 20px;
+  margin: 10px 0px 0px 0px;
+  text-align: right;
+}
+
+.dropdown-content {
+ display: none;
+}
+
+.dropdown-content button{
+  padding: 5px 7px;
+  display: block;
+  width: 125px;
+}
+
+.dropdown button:hover {background-color: gray;}
+
+.show {
+  display: block;
+}
+
+body {
+  border: 5px black;
+}
+
+.submit-btn-styles {
+  text-align: center;
+}
+
+#submit-btn {
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+}
+
+.grading-system {
+  font-weight: bold;
+}
+
+.grading-system > p {
+  margin: 5px;
+}
